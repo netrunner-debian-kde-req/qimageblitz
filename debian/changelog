@@ -1,5 +1,7 @@
 blitz (0.0.3+svn699300-1) unstable; urgency=low
 
-  * Initial release (Closes: #436987)
+  * Initial release. (Closes: #436987)
+    - Hack away newer cpu optimizations.
+    - Add a .gnu.note section to asm file - fixes lintian warning.
 
  -- Sune Vuorela <debian@pusling.com>  Sun, 12 Aug 2007 19:16:04 +0200
