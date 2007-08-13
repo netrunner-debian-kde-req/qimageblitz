@@ -9,61 +9,73 @@ Upstream Author:
 
 Copyright: 
 
-blitz/blitz.cpp: Copyright (C) 1998, 1999, 2001, 2002, 2004, 2005, 2007
-blitz/blitz.cpp-      Daniel M. Duley <daniel.duley@verizon.net>
-blitz/blitz.cpp: (C) 2004 Zack Rusin <zack@kde.org>
-blitz/blitz.cpp: (C) 2000 Josef Weidendorfer <weidendo@in.tum.de>
-blitz/blitz.cpp: (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
-blitz/blitz.cpp: (C) 1998, 1999 Christian Tibirna <ctibirna@total.net>
-blitz/blitz.cpp: (C) 1998, 1999 Dirk Mueller <mueller@kde.org>
-blitz/blitz.cpp-
-blitz/blitz.cpp:Copyright (C) 2003 ImageMagick Studio, a non-profit organization dedicated to
-blitz/blitz.cpp-making software imaging solutions freely available.
-blitz/blitz.cpp-            // Diagonal dgradient code inspired by BlackBox (mosfet)
-blitz/blitz.cpp:            // BlackBox dgradient is (C) Brad Hughes, <bhughes@tcac.net> and
-blitz/blitz.cpp-            // Mike Cole <mike@mydot.com>.
+blitz/blitz.cpp: 
+    | Copyright (C) 1998, 1999, 2001, 2002, 2004, 2005, 2007
+    |       Daniel M. Duley <daniel.duley@verizon.net>
+    | (C) 2004 Zack Rusin <zack@kde.org>
+    | (C) 2000 Josef Weidendorfer <weidendo@in.tum.de>
+    | (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+    | (C) 1998, 1999 Christian Tibirna <ctibirna@total.net>
+    | (C) 1998, 1999 Dirk Mueller <mueller@kde.org>
+    | 
+    | Copyright (C) 2003 ImageMagick Studio, a non-profit organization dedicated to
+    | making software imaging solutions freely available.
+    |             // Diagonal dgradient code inspired by BlackBox (mosfet)
+    |             // BlackBox dgradient is (C) Brad Hughes, <bhughes@tcac.net> and
+    |             // Mike Cole <mike@mydot.com>.
 --
-blitz/blitz.h: Copyright (C) 1998, 1999, 2001, 2002, 2004, 2005, 2007
-blitz/blitz.h-      Daniel M. Duley <daniel.duley@verizon.net>
-blitz/blitz.h: (C) 2004 Zack Rusin <zack@kde.org>
-blitz/blitz.h: (C) 2000 Josef Weidendorfer <weidendo@in.tum.de>
-blitz/blitz.h: (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
-blitz/blitz.h: (C) 1998, 1999 Christian Tibirna <ctibirna@total.net>
-blitz/blitz.h: (C) 1998, 1999 Dirk Mueller <mueller@kde.org>
+blitz/blitz.h: 
+    | Copyright (C) 1998, 1999, 2001, 2002, 2004, 2005, 2007
+    |       Daniel M. Duley <daniel.duley@verizon.net>
+    | (C) 2004 Zack Rusin <zack@kde.org>
+    | (C) 2000 Josef Weidendorfer <weidendo@in.tum.de>
+    | (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+    | (C) 1998, 1999 Christian Tibirna <ctibirna@total.net>
+    | (C) 1998, 1999 Dirk Mueller <mueller@kde.org>
 --
-blitz/colors.cpp: Copyright (C) 1998, 1999, 2001, 2002, 2004, 2005, 2007
-blitz/colors.cpp-      Daniel M. Duley <daniel.duley@verizon.net>
-blitz/colors.cpp: (C) 2000 Josef Weidendorfer <weidendo@in.tum.de>
-blitz/colors.cpp: (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+blitz/colors.cpp:
+    | Copyright (C) 1998, 1999, 2001, 2002, 2004, 2005, 2007
+    |      Daniel M. Duley <daniel.duley@verizon.net>
+    | (C) 2000 Josef Weidendorfer <weidendo@in.tum.de>
+    | (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
 --
-blitz/convolve.cpp: Copyright (C) 2004, 2005, 2007 Daniel M. Duley <daniel.duley@verizon.net>
+blitz/convolve.cpp: 
+    | Copyright (C) 2004, 2005, 2007 Daniel M. Duley <daniel.duley@verizon.net>
 --
-blitz/convolve.cpp:Copyright (C) 2003 ImageMagick Studio, a non-profit organization dedicated to
-blitz/convolve.cpp-making software imaging solutions freely available.
+blitz/convolve.cpp:
+    | Copyright (C) 2003 ImageMagick Studio, a non-profit organization dedicated to
+    | making software imaging solutions freely available.
 --
-blitz/histogram.cpp: Copyright (C) 1998, 1999, 2001, 2002, 2004, 2005, 2007 
-                     Daniel M. Duley <daniel.duley@verizon.net>
-blitz/histogram.cpp:Copyright (C) 2003 ImageMagick Studio, a non-profit organization dedicated to
-blitz/histogram.cpp-making software imaging solutions freely available.
+blitz/histogram.cpp: 
+    | Copyright (C) 1998, 1999, 2001, 2002, 2004, 2005, 2007 
+    |      Daniel M. Duley <daniel.duley@verizon.net>
+    | Copyright (C) 2003 ImageMagick Studio, a non-profit organization dedicated to
+    | -making software imaging solutions freely available.
 --
-blitz/mcpu.cpp: * Copyright (C) 2003 Fredrik Hoglund <fredrik@kde.org>
-blitz/mcpu.cpp: * Copyright (C) 2004 Daniel M. Duley <daniel.duley@verizon.net>
+blitz/mcpu.cpp: 
+    | * Copyright (C) 2003 Fredrik Hoglund <fredrik@kde.org>
+    | * Copyright (C) 2004 Daniel M. Duley <daniel.duley@verizon.net>
 --
-blitz/mcpu.h: * Copyright (C) 2003 Fredrik Hoglund <fredrik@kde.org>
-blitz/mcpu.h: * Copyright (C) 2004 Daniel M. Duley <daniel.duley@verizon.net>
+blitz/mcpu.h: 
+    | * Copyright (C) 2003 Fredrik Hoglund <fredrik@kde.org>
+    | * Copyright (C) 2004 Daniel M. Duley <daniel.duley@verizon.net>
 --
-blitz/scale.cpp: * Copyright (C) 2004, 2005, 2007 Daniel M. Duley <daniel.duley@verizon.net>
-blitz/scale.cpp: * Imlib2 is (C) Carsten Haitzler and various contributors. The MMX code
-blitz/scale.cpp- * is by Willem Monsuwe <willem@stack.nl>. All other modifications are
-blitz/scale.cpp: * (C) Daniel M. Duley.
+blitz/scale.cpp: 
+    | * Copyright (C) 2004, 2005, 2007 Daniel M. Duley <daniel.duley@verizon.net>
+    | * Imlib2 is (C) Carsten Haitzler and various contributors. The MMX code
+    | * is by Willem Monsuwe <willem@stack.nl>. All other modifications are
+    | * (C) Daniel M. Duley.
 --
-blitz/scalefilter.cpp: Copyright (C) 2004, 2005, 2007 Daniel M. Duley <daniel.duley@verizon.net>
-blitz/scalefilter.cpp:Copyright (C) 2003 ImageMagick Studio, a non-profit organization dedicated to
-blitz/scalefilter.cpp-making software imaging solutions freely available.
-blitz/private/inlinehsv.h: Copyright (C) 2005, 2007 Daniel M. Duley <daniel.duley@verizon.net>
-blitz/private/interpolate.h: Copyright (C) 2005, 2007 Daniel M. Duley <daniel.duley@verizon.net>
+blitz/scalefilter.cpp: 
+    | Copyright (C) 2004, 2005, 2007 Daniel M. Duley <daniel.duley@verizon.net>
+    | Copyright (C) 2003 ImageMagick Studio, a non-profit organization dedicated to
+    | making software imaging solutions freely available.
+blitz/private/inlinehsv.h:
+    | Copyright (C) 2005, 2007 Daniel M. Duley <daniel.duley@verizon.net>
+blitz/private/interpolate.h: 
+    | Copyright (C) 2005, 2007 Daniel M. Duley <daniel.duley@verizon.net>
 
-
+License:
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
