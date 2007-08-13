@@ -1,4 +1,4 @@
-blitz (0.0.3+svn699300-1) unstable; urgency=low
+blitz (0.0.3+svn699563-1) unstable; urgency=low
 
   * Initial release. (Closes: #436987)
     - Hack away newer cpu optimizations.

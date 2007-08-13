@@ -1,14 +1,16 @@
 Source: blitz
 Priority: optional
-Maintainer: Sune Vuorela <debian@pusling.com>
-Build-Depends: debhelper (>= 5)
+Section: libs
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <debian@pusling.com>
+Build-Depends: debhelper (>= 5), cdbs, cmake, quilt, libqt4-dev
 Standards-Version: 3.7.2
 
 Package: libblitz4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: kde/qt image filter library
+Description: KDE/Qt image filter library
  Blitz is a graphical effect and filter library for KDE4.0 that contains
  many improvements over KDE 3.x's kdefx library including bugfixes,
  memory and speed improvements, and MMX/SSE support.
@@ -16,8 +18,8 @@ Description: kde/qt image filter library
 Package: libblitz-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libblitz4 (=${binary:Version})
-Description: kde/qt image filter library - development files
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: KDE/Qt image filter library - development files
  Blitz is a graphical effect and filter library for KDE4.0 that contains
  many improvements over KDE 3.x's kdefx library including bugfixes,
  memory and speed improvements, and MMX/SSE support.
