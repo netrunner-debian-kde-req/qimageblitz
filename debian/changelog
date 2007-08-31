@@ -1,3 +1,10 @@
+qimageblitz (0.0.706674-1) unstable; urgency=low
+
+  * New upstream release
+  * Package name change to avoid clashes with blitz++
+
+ -- Sune Vuorela <debian@pusling.com>  Fri, 31 Aug 2007 08:28:37 +0200
+
 blitz (0.0.3+svn699563-1) unstable; urgency=low
 
   * Initial release. (Closes: #436987)
