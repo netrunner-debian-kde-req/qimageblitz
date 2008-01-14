@@ -1,8 +1,10 @@
-qimageblitz (0.0.706674-3) unstable; urgency=low
+qimageblitz (0.0.752814-1) unstable; urgency=low
 
-  +++ Changes by Matthew Rosewarne:
-
+  * New upstream snapshot.
+  * Tweak description.
   * Add Homepage: to control.
+  * Build -dbg package.
+  * Bump Standards-Version to 3.7.3, no changes needed.
 
  -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Tue, 08 Jan 2008 12:00:32 -0500
 
