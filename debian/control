@@ -3,7 +3,7 @@ Priority: optional
 Section: libs
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>
-Build-Depends: debhelper (>= 5), cdbs, cmake, quilt, libqt4-dev
+Build-Depends: debhelper (>= 6), cdbs, cmake, quilt, libqt4-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
 
@@ -16,7 +16,7 @@ Description: KDE/Qt image filter library
  contains many improvements over KDE 3.x's kdefx library, including bugfixes
  and speed improvements.  It is expected to be replaced by Quasar for KDE 4.1.
 
-Package: libqimageblitz4-dbg
+Package: libqimageblitz-dbg
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libqimageblitz4 (= ${binary:Version})
@@ -30,7 +30,7 @@ Description: Debugging symbols for qimageblitz
 Package: libqimageblitz-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends},  libqimageblitz4 (= ${binary:Version})
 Description: KDE/Qt image filter library - development files
  Blitz is an interim graphical effect and filter library for KDE 4.0 that
  contains many improvements over KDE 3.x's kdefx library, including bugfixes
