@@ -18,6 +18,7 @@ Description: KDE/Qt image filter library
 
 Package: libqimageblitz-dbg
 Section: libs
+Priority: extra
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libqimageblitz4 (= ${binary:Version})
 Description: Debugging symbols for qimageblitz
