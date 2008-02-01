@@ -2,7 +2,7 @@ Source: qimageblitz
 Priority: optional
 Section: libs
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <debian@pusling.com>
+Uploaders: Sune Vuorela <debian@pusling.com>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: debhelper (>= 6), cdbs, cmake, quilt, libqt4-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
@@ -11,8 +11,8 @@ Package: libqimageblitz4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: KDE/Qt image filter library
- Blitz is an interim graphical effect and filter library for KDE 4.0 that
+Description: QImageBlitz image effects library
+ QImageBlitz is an interim graphical effect and filter library for KDE 4.0 that
  contains many improvements over KDE 3.x's kdefx library, including bugfixes
  and speed improvements.  It is expected to be replaced by Quasar for KDE 4.1.
 
@@ -21,21 +21,22 @@ Section: libs
 Priority: extra
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libqimageblitz4 (= ${binary:Version})
-Description: Debugging symbols for qimageblitz
- Blitz is an interim graphical effect and filter library for KDE 4.0 that
+Description: debugging symbols for the QImageBlitz image effects library
+ QImageBlitz is an interim graphical effect and filter library for KDE 4.0 that
  contains many improvements over KDE 3.x's kdefx library, including bugfixes
  and speed improvements.  It is expected to be replaced by Quasar for KDE 4.1.
  .
- This package contains the debugging symbols for qimageblitz.
+ This package contains debugging files used to investigate problems with
+ binaries included in the QImageBlitz packages.
 
 Package: libqimageblitz-dev
 Section: libdevel
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},  libqimageblitz4 (= ${binary:Version})
-Description: KDE/Qt image filter library - development files
- Blitz is an interim graphical effect and filter library for KDE 4.0 that
+Description: development files for the QImageBlitz image effects library
+ QImageBlitz is an interim graphical effect and filter library for KDE 4.0 that
  contains many improvements over KDE 3.x's kdefx library, including bugfixes
  and speed improvements.  It is expected to be replaced by Quasar for KDE 4.1.
  .
- This is the development package which contains headers and static libraries 
- for qimageblitz.
+ This package contains development files for building software that uses the
+ QImageBlitz library.
