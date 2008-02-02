@@ -1,7 +1,5 @@
-Index: qimageblitz-0.0.4/blitz/CMakeLists.txt
-===================================================================
---- qimageblitz-0.0.4.orig/blitz/CMakeLists.txt	2007-11-07 12:58:44.000000000 +0100
-+++ qimageblitz-0.0.4/blitz/CMakeLists.txt	2008-01-22 01:16:22.000000000 +0100
+--- a/blitz/CMakeLists.txt
++++ b/blitz/CMakeLists.txt
 @@ -17,13 +17,13 @@
  
  CHECK_INCLUDE_FILE(stdint.h HAVE_STDINT_H)
