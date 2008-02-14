@@ -17,7 +17,7 @@ Description: QImageBlitz image effects library
  and speed improvements.  It is expected to be replaced by Quasar for KDE 4.1.
 
 Package: libqimageblitz-dbg
-Section: libs
+Section: libdevel
 Priority: extra
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libqimageblitz4 (= ${binary:Version})
