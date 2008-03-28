@@ -1,11 +1,16 @@
-qimageblitz (1:0.0.4-2) UNRELEASED; urgency=low
+qimageblitz (1:0.0.4-2) experimental; urgency=low
 
   +++ Changes by Matthew Rosewarne:
 
   * Forcibly enable CPU optimizations.
   * Move libqimageblitz-dbg to Section: libdevel.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 13 Feb 2008 19:03:30 -0500
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Build against Qt4 4.4 in experimental:
+   - Add versioned build depend for libqt4-dev on >= 4.4.0~.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Mar 2008 17:01:34 +0100
 
 qimageblitz (1:0.0.4-1) unstable; urgency=low
 
