@@ -1,2 +1,3 @@
 10_skip_cpu_check.diff
 11_.gnu.note.diff
+12_remove_FindQt4.cmake.diff
