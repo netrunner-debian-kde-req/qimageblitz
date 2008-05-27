@@ -1,3 +1,10 @@
+qimageblitz (1:0.0.4-4) unstable; urgency=low
+
+  * Upload to unstable.
+  * Move .gnu.note section for non-i386 architectures. (Closes: #479575)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 14:51:27 +0200
+
 qimageblitz (1:0.0.4-3) experimental; urgency=low
 
   +++ Changes by Fathi Boudra:
