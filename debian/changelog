@@ -1,3 +1,10 @@
+qimageblitz (1:0.0.4-4) UNRELEASED; urgency=low
+
+  * Bump debian/compat and debhelper build dependency to v7 (to get more
+    sophisticated debian/tmp handling).
+
+ -- Modestas Vainius <modestas@vainius.eu>  Sat, 24 Jan 2009 03:44:31 +0200
+
 qimageblitz (1:0.0.4-3) experimental; urgency=low
 
   +++ Changes by Fathi Boudra:
