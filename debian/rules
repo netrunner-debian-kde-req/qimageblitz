@@ -2,7 +2,7 @@
 
 THIS_SHOULD_GO_TO_UNSTABLE=1
 
-include debian/cdbs/kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 include debian/cpu-optimize.mk
 
 DEB_CMAKE_EXTRA_FLAGS += \
