@@ -1,6 +1,5 @@
 #!/usr/bin/make -f
 
-THIS_SHOULD_GO_TO_UNSTABLE=1
 
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 include debian/cpu-optimize.mk
