@@ -1,12 +1,8 @@
-Index: qimageblitz-0.0.4/blitz/asm_scale.S
-===================================================================
---- qimageblitz-0.0.4.orig/blitz/asm_scale.S	2007-11-07 12:58:44.000000000 +0100
-+++ qimageblitz-0.0.4/blitz/asm_scale.S	2008-01-22 01:16:23.000000000 +0100
-@@ -813,4 +813,7 @@
- 
+--- a/blitz/asm_scale.S
++++ b/blitz/asm_scale.S
+@@ -814,3 +814,5 @@
  SIZE(qimageScale_mmx_AARGBA)
  
-+.section .note.GNU-stack,"",%progbits
-+
  #endif
 +
++.section .note.GNU-stack,"",%progbits
