@@ -18,6 +18,7 @@ qimageblitz (1:0.0.6-1) UNRELEASED; urgency=low
   * Move libqimageblitz-dbg package to the bottom of debian/control.
   * Change libimageblitz-dbg section to debug.
   * Remove Matthew from Uploaders, R.I.P.
+  * Change Sune's email address to @debian.org.
 
  -- Modestas Vainius <modestas@vainius.eu>  Mon, 16 Feb 2009 02:10:50 +0200
 
