@@ -26,6 +26,8 @@ qimageblitz (1:0.0.6-1) UNRELEASED; urgency=low
   * Add a symbol file for libqimageblitz4 (based on 0.0.4).
   * Refresh patches.
   * Remove duplicate Section fields from debian/control.
+  * Add Copyright next to (C) in the statement about Debian packaging
+    copyright (fixes lintian error).
 
  -- Modestas Vainius <modestas@vainius.eu>  Mon, 16 Feb 2009 02:10:50 +0200
 
