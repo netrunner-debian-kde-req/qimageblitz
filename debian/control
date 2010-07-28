@@ -31,7 +31,7 @@ Description: development files for the QImageBlitz image effects library
  QImageBlitz library.
 
 Package: libqimageblitz-dbg
-Section: libdevel
+Section: debug
 Priority: extra
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libqimageblitz4 (= ${binary:Version})
