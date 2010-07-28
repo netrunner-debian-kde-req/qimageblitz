@@ -1,5 +1,6 @@
-qimageblitz (1:0.0.4-5) UNRELEASED; urgency=low
+qimageblitz (1:0.0.6-1) UNRELEASED; urgency=low
 
+  * New upstream release.
   * Bump debian/compat and debhelper build dependency to v7 (to get more
     sophisticated debian/tmp handling).
   * Switch from internal debian/cdbs/kde.mk to pkg-kde-tools:
