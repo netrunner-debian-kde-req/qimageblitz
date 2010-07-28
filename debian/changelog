@@ -15,6 +15,7 @@ qimageblitz (1:0.0.6-1) UNRELEASED; urgency=low
   * Strip version numbers from KDE 4 in descriptions, remove references to
     Quasar.
   * Bump Standards-Version to 3.9.1: no changes needed.
+  * Move libqimageblitz-dbg package to the bottom of debian/control.
 
  -- Modestas Vainius <modestas@vainius.eu>  Mon, 16 Feb 2009 02:10:50 +0200
 
