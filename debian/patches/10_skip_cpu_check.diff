@@ -1,6 +1,6 @@
 --- a/blitz/CMakeLists.txt
 +++ b/blitz/CMakeLists.txt
-@@ -17,13 +17,13 @@
+@@ -12,13 +12,13 @@ include_directories(
  
  CHECK_INCLUDE_FILE(stdint.h HAVE_STDINT_H)
  
