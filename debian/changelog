@@ -21,6 +21,7 @@ qimageblitz (1:0.0.6-1) UNRELEASED; urgency=low
   * Change Sune's email address to @debian.org.
   * Add myself to Uploaders.
   * Update packaging copyright years in debian/copyright.
+  * Strip ./ from libqimageblitz-dev.install.
 
  -- Modestas Vainius <modestas@vainius.eu>  Mon, 16 Feb 2009 02:10:50 +0200
 
