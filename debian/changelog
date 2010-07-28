@@ -22,6 +22,7 @@ qimageblitz (1:0.0.6-1) UNRELEASED; urgency=low
   * Add myself to Uploaders.
   * Update packaging copyright years in debian/copyright.
   * Strip ./ from libqimageblitz-dev.install.
+  * Sort install files.
 
  -- Modestas Vainius <modestas@vainius.eu>  Mon, 16 Feb 2009 02:10:50 +0200
 
