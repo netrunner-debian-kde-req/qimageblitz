@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1:0.0.4 alpha amd64 arm armel hppa i386 ia64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 1:0.0.6 amd64
 libqimageblitz.so.4 libqimageblitz4 #MINVER#
  _ZN11QImageScale17qimageCalcApointsEiii@Base 1:0.0.4
  _ZN11QImageScale17qimageCalcXPointsEii@Base 1:0.0.4
@@ -48,12 +48,10 @@ libqimageblitz.so.4 libqimageblitz4 #MINVER#
  _ZN5Blitz9intensityER6QImagef@Base 1:0.0.4
  _ZN5Blitz9normalizeER6QImage@Base 1:0.0.4
  _ZN5Blitz9thresholdER6QImagehNS_10RGBChannelEjj@Base 1:0.0.4
- (optional=templinst|arch=alpha amd64 i386 kfreebsd-i386 powerpc s390)_ZN7QVectorIjE13detach_helperEv@Base 1:0.0.4
  (optional=templinst|arch=!alpha !amd64 !i386)_ZN7QVectorIjE4dataEv@Base 1:0.0.4
- (optional=templinst|arch=alpha amd64 i386)_ZN7QVectorIjE4freeEP16QVectorTypedDataIjE@Base 1:0.0.4
  (optional=templinst|arch=!kfreebsd-i386 !powerpc !s390)_ZN7QVectorIjE7reallocEii@Base 1:0.0.4
- (optional=templinst|arch=!alpha !amd64 !i386)_ZN7QVectorIjEC1ERKS0_@Base 1:0.0.4
+ (optional=templinst|arch=!alpha !i386)_ZN7QVectorIjEC1ERKS0_@Base 1:0.0.4
  (optional=templinst)_ZN7QVectorIjEC1Ei@Base 1:0.0.4
- (optional=templinst|arch=!alpha !amd64 !i386)_ZN7QVectorIjED1Ev@Base 1:0.0.4
+ (optional=templinst|arch=!alpha !i386)_ZN7QVectorIjED1Ev@Base 1:0.0.4
  (optional=templinst)_ZN7QVectorIjEaSERKS0_@Base 1:0.0.4
  (arch=i386 kfreebsd-i386)__qimageScale_mmx_AARGBA@Base 1:0.0.4
