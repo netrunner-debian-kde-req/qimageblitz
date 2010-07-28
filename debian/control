@@ -3,8 +3,7 @@ Priority: optional
 Section: libs
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: debhelper (>= 7), cdbs, cmake, quilt, pkg-kde-tools (>= 0.4),
- libqt4-dev (>= 4.4.0~)
+Build-Depends: debhelper (>= 7), cdbs, cmake, pkg-kde-tools (>= 0.9), libqt4-dev (>= 4.4.0~)
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
 Vcs-Git: git://git.debian.org/pkg-kde/kde-req/qimageblitz.git

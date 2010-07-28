@@ -9,6 +9,9 @@ qimageblitz (1:0.0.6-1) UNRELEASED; urgency=low
     - replace debian/cdbs/kde.mk with
       /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk in debian/rules.
   * Add Vcs fields to debian/control.
+  * Switch to debian source format 3.0 (quilt):
+    - remove build dependency on quilt;
+    - bump pkg-kde-tools build dependency to 0.9 (needed for 3.0 (quilt)).
 
  -- Modestas Vainius <modestas@vainius.eu>  Mon, 16 Feb 2009 02:10:50 +0200
 
