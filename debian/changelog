@@ -12,6 +12,8 @@ qimageblitz (1:0.0.6-1) UNRELEASED; urgency=low
   * Switch to debian source format 3.0 (quilt):
     - remove build dependency on quilt;
     - bump pkg-kde-tools build dependency to 0.9 (needed for 3.0 (quilt)).
+  * Strip version numbers from KDE 4 in descriptions, remove references to
+    Quasar.
 
  -- Modestas Vainius <modestas@vainius.eu>  Mon, 16 Feb 2009 02:10:50 +0200
 
