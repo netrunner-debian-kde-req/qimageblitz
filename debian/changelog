@@ -28,6 +28,7 @@ qimageblitz (1:0.0.6-1) UNRELEASED; urgency=low
   * Remove duplicate Section fields from debian/control.
   * Add Copyright next to (C) in the statement about Debian packaging
     copyright (fixes lintian error).
+  * Disable /usr/lib R(UN)PATH (patch 13_disable_usr_lib_rpath.diff).
 
  -- Modestas Vainius <modax@debian.org>  Wed, 28 Jul 2010 22:53:53 +0300
 
