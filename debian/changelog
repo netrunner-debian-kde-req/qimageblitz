@@ -1,4 +1,4 @@
-qimageblitz (1:0.0.6-1) UNRELEASED; urgency=low
+qimageblitz (1:0.0.6-1) unstable; urgency=low
 
   * New upstream release.
   * Bump debian/compat and debhelper build dependency to v7 (to get more
@@ -30,7 +30,7 @@ qimageblitz (1:0.0.6-1) UNRELEASED; urgency=low
     copyright (fixes lintian error).
   * Disable /usr/lib R(UN)PATH (patch 13_disable_usr_lib_rpath.diff).
 
- -- Modestas Vainius <modax@debian.org>  Wed, 28 Jul 2010 22:53:53 +0300
+ -- Modestas Vainius <modax@debian.org>  Sat, 18 Sep 2010 21:26:37 +0300
 
 qimageblitz (1:0.0.4-4) unstable; urgency=low
 
