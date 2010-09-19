@@ -1,8 +1,8 @@
-qimageblitz (1:0.0.6-2) UNRELEASED; urgency=low
+qimageblitz (1:0.0.6-2) unstable; urgency=low
 
   * Update libqimageblitz4.symbols for other arches, fixes FTBFSes.
 
- -- Modestas Vainius <modax@debian.org>  Sun, 19 Sep 2010 12:34:35 +0300
+ -- Modestas Vainius <modax@debian.org>  Sun, 19 Sep 2010 12:36:21 +0300
 
 qimageblitz (1:0.0.6-1) unstable; urgency=low
 
