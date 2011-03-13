@@ -47,10 +47,9 @@ libqimageblitz.so.4 libqimageblitz4 #MINVER#
  _ZN5Blitz9intensityER6QImagef@Base 1:0.0.4
  _ZN5Blitz9normalizeER6QImage@Base 1:0.0.4
  _ZN5Blitz9thresholdER6QImagehNS_10RGBChannelEjj@Base 1:0.0.4
- (optional=templinst)_ZN7QVectorIjE4dataEv@Base 1:0.0.4
+ (optional=templinst)_ZN7QVectorIjE13detach_helperEv@Base 1:0.0.6
  (optional=templinst)_ZN7QVectorIjE7reallocEii@Base 1:0.0.4
- (optional=templinst)_ZN7QVectorIjEC1ERKS0_@Base 1:0.0.4
  (optional=templinst)_ZN7QVectorIjEC1Ei@Base 1:0.0.4
- (optional=templinst)_ZN7QVectorIjED1Ev@Base 1:0.0.4
+ (optional=templinst)_ZN7QVectorIjEC2Ei@Base 1:0.0.6
  (optional=templinst)_ZN7QVectorIjEaSERKS0_@Base 1:0.0.4
  (arch=hurd-i386 i386 kfreebsd-i386)__qimageScale_mmx_AARGBA@Base 1:0.0.6
