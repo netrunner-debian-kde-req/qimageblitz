@@ -1,8 +1,19 @@
 #!/usr/bin/make -f
 
+dh = --dbg-package=libqimageblitz-dbg
 
-include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
-include debian/cpu-optimize.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-DEB_CMAKE_EXTRA_FLAGS += \
-			$(shell echo $(foreach cpuopt,$(DEB_BUILD_ARCH_CPU_OPT),-DHAVE_$(cpuopt):BOOL=ON) | tr '[:lower:]' '[:upper:]')
+cpu_opt_i386 = 3dnow mmx sse sse2 sse3
+cpu_opt_amd64 = 3dnow mmx sse sse2 sse3
+cpu_opt_powerpc = altivec
+
+build_arch_opts = $(cpu_opt_$(shell dpkg-architecture -qDEB_BUILD_ARCH_CPU))
+
+ifneq (,$(build_arch_opts))
+
+override_dh_auto_configure:
+	$(overriden_command) -- $(shell echo $(foreach opt,$(build_arch_opts),-DHAVE_$(opt)=ON) | tr '[:lower:]' '[:upper:]')
+
+endif
+

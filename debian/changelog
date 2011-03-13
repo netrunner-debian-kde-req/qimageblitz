@@ -1,5 +1,6 @@
 qimageblitz (1:0.0.6-3) UNRELEASED; urgency=low
 
+  * Switch debian/rules engine to qt-kde-team/2/*.
 
  -- Modestas Vainius <modax@debian.org>  Sun, 13 Mar 2011 22:36:22 +0200
 
