@@ -2,6 +2,7 @@ qimageblitz (1:0.0.6-4) UNRELEASED; urgency=low
 
   * Replace $(overriden_command) with $(overridden_command) in debian/rules.
     Requires pkg-kde-tools 0.12.
+  * Bump Standards-Version to 3.9.2: no changes needed.
 
  -- Modestas Vainius <modax@debian.org>  Wed, 27 Apr 2011 15:37:43 +0300
 
