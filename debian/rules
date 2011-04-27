@@ -13,7 +13,7 @@ build_arch_opts = $(cpu_opt_$(shell dpkg-architecture -qDEB_BUILD_ARCH_CPU))
 ifneq (,$(build_arch_opts))
 
 override_dh_auto_configure:
-	$(overriden_command) -- $(shell echo $(foreach opt,$(build_arch_opts),-DHAVE_$(opt)=ON) | tr '[:lower:]' '[:upper:]')
+	$(overridden_command) -- $(shell echo $(foreach opt,$(build_arch_opts),-DHAVE_$(opt)=ON) | tr '[:lower:]' '[:upper:]')
 
 endif
 
