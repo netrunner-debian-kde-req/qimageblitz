@@ -2,6 +2,7 @@ qimageblitz (1:0.0.6-5~) UNRELEASED; urgency=medium
 
   * Team upload.
   * Bump debhelper compat and build dep to 9.
+  * Bump Standards-Version to 3.9.6, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 29 Aug 2015 11:38:20 +0200
 
