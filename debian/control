@@ -3,7 +3,10 @@ Priority: optional
 Section: libs
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Modestas Vainius <modax@debian.org>
-Build-Depends: debhelper (>= 9), cmake, pkg-kde-tools (>= 0.12), libqt4-dev (>= 4.4.0~)
+Build-Depends: cmake,
+               debhelper (>= 9),
+               libqt4-dev (>= 4.4.0~),
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-req/qimageblitz.git
@@ -11,7 +14,7 @@ Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-req/qimageblitz.git
 
 Package: libqimageblitz4
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: QImageBlitz image effects library
  QImageBlitz is an interim graphical effect and filter library for KDE that
  contains many improvements over KDE 3.x's kdefx library, including bugfixes
@@ -20,7 +23,9 @@ Description: QImageBlitz image effects library
 Package: libqimageblitz-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},  libqimageblitz4 (= ${binary:Version})
+Depends: libqimageblitz4 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: development files for the QImageBlitz image effects library
  QImageBlitz is an interim graphical effect and filter library for KDE that
  contains many improvements over KDE 3.x's kdefx library, including bugfixes
@@ -33,7 +38,9 @@ Package: libqimageblitz-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libqimageblitz4 (= ${binary:Version})
+Depends: libqimageblitz4 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: debugging symbols for the QImageBlitz image effects library
  QImageBlitz is an interim graphical effect and filter library for KDE that
  contains many improvements over KDE 3.x's kdefx library, including bugfixes
